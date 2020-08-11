@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  background-color: #323232;
+  color: white;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-title {
+  text-transform: uppercase;
+}
+
+.btn {
+  background: #07fcdf;
+  color: black;
+  cursor: pointer;
+  padding: 1em 2em;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0 0.4rem #02ceb5;
+          box-shadow: 0 0.4rem #02ceb5;
+}
+
+.btn:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
+.btn:active {
+  -webkit-transform: translateY(0.4rem);
+          transform: translateY(0.4rem);
+  -webkit-box-shadow: 0 0.1rem #02ceb5;
+          box-shadow: 0 0.1rem #02ceb5;
+}
+
+.btn + .btn {
+  margin-left: 0.5em;
+}
+/*# sourceMappingURL=style.css.map */
